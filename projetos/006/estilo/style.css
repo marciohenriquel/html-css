@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    background-color: #111710;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a.externo::after{
+    content: '\00A0\1F517';
+}
+
+.navbar{
+    background:#111710;
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 30px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:bold;
+}
+
+.logo img{
+    width:150px;
+}
+
+.nav-links{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:#ffff;
+    text-decoration:none;
+    font-size:1.2em;
+    display: inline-block;
+    transition:all 0.3s ease;
+}
+
+.nav-links a:hover{
+    transform: translateY(-3px);
+    color:#90E048;
+}
+
+header{
+ height: 90vh;
+ background-image:url(../imagens/background.png) ;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header h1{
+    font-size: 5rem;
+    line-height: 0.95;
+    font-weight: 700;
+    color: #90E048;
+    margin-bottom: 18px;
+    padding:300px 0 0 60px;
+}
+
+header p{
+    font-size: 1.3rem;
+    color: #ffffff;
+    line-height: 1.2;
+    padding: 0 0 0 60px;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1200px;
+    margin-bottom: 30px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.383);
+}
+
+.cor1{
+    background-color: #111619; 
+    padding: 80px 0;
+}
+
+.cor2{
+    background-color: #0E1414; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.conteudo-texto {
+    flex: 1; 
+    max-width: 60%;
+}
+
+.conteudo-texto h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin:0 0 0 40px;
+    color: #ffffff;
+    padding: 0;
+}
+
+.conteudo-texto > p{
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #b3b3b3;
+    margin:0 40px;
+}
+
+.conteudo-imagem {
+    flex: -2;
+    max-width: 50%;
+    margin-right: 50px;
+}
+
+.conteudo-imagem img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.cor3{
+    background-color: #151E1D; 
+}
+
+.cor3 p{
+    padding-top: 50px;
+}
+
+.cor4{
+    background-color: #070B0C;
+    padding: 80px 0;
+}
+
+main h1{
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+main p{
+    color: #b3b3b3;
+    text-align: center;
+    margin: 0px 70px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #77ba3c;
+}
+
+main strong{
+    color: #fff;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #438138;
+}
+
+main h2{
+    text-align: center;
+    padding: 50px 0 30px;
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.dan{
+    margin-bottom: -150px;
+    margin-top: -150px;
+}
+
+div.video{
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside h3{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+aside  ul{
+    list-style-type: '\1F5F8\00A0\00A0';
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 10px 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: #ffff;
+    color: #111710;
+    padding: 15px;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .top{
+        flex-direction: column;
+    }
+
+    .flex{
+        background-image: url("../imagens/background-pq.png");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        min-height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+     }
+
+     .flex h1{
+        font-size: 2.8em;
+        text-align: center;
+        padding: 90px 0 0;
+        margin-bottom: 10px;
+     }
+
+     .flex p{
+        font-size: 1em;
+        text-align: center;
+        padding: 0 20px;
+        margin: 0;
+     }
+
+    /* Cabeçalho*/
+    .nav-links{
+        display: none;
+    }
+
+    .dan{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    main p{
+        text-align: justify;
+        margin: 20px;
+    }
+
+    main h1{
+        font-size: 1.5em;
+        margin: 0 20px;
+    }
+
+    main h2{
+        font-size: 1.5em;
+    }
+
+    .and{
+        text-align: center;
+    }
+
+    .cor2{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+
+    .conteudo-texto{
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .conteudo-texto h2{
+        text-align: center;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteudo-texto p{
+        text-align: justify;
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .conteudo-imagem{
+        content: url(../imagens/irina-blok.jpg);
+        max-width: 100%;
+        margin: 0;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.319);
+    }
+
+    .cor3{
+        padding: 20px 0;
+    }
+
+    .cor4 ul{
+        padding: 30px;
+        display: grid;
+        gap: 10px 50px;
+    }
+
+    .logo img{
+    width:100px;
+}
+}

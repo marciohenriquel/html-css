@@ -1,0 +1,25 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.um{
+    text-align: left;
+}
+
+.dois{
+    text-align: right;
+}
+
+.tres{
+    text-align: center;
+}
+
+.quatro{
+    text-align: justify;
+}

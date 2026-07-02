@@ -1,0 +1,39 @@
+
+
+body{
+    font-weight: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 247, 240);
+}
+
+h1{
+    color: rgb(158, 124, 78);
+}
+
+h1#principal{
+    background-color:rgb(158, 124, 78) ;
+    color:rgb(66, 60, 52);
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h2{
+    text-align: left;
+    color: rgb(66, 60, 52);
+}
+
+.basico{
+    color: rgb(92, 67, 36);
+}
+
+.intermediario{
+    color: rgb(167, 128, 80);
+}
+
+.avancado{
+    color: rgb(253, 187, 105);
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #403022, #735840);
+    font-family: poppins;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    background:#DBDDD8;
+    right: 0;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 15px #26150B;
+    padding: 40px;
+}
+
+.form{
+    width: 100%;
+}
+
+.container h1{
+    font-size: 36px;
+    margin: -10px 0;
+}
+
+.password{
+    position: relative;
+    margin: 30px 0;
+}
+
+.password input{
+    width: 95%;
+    padding: 12px;
+    background:#A68D77;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #26150B;
+    font-weight: 500;
+}
+
+.password input::placeholder{
+    color: #26150B;
+    font-weight: 400;
+}
+
+.password i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #26150B;
+}
+
+.forgot{
+    margin: 15px 0;
+}
+
+.forgot a{
+    font-size: 14.5px;
+    color:#403022;
+    text-decoration: none;
+}
+
+.bnt{
+    width: 100%;
+    height: 48px;
+    background-color:#26150B ;
+    color: #A68D77;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.bnt:hover{
+    background-color:#735840 ;
+    transform: scale(1.05);
+}
+
+.bnt:active{
+    transform: translateY(2px);
+}
+
+p{
+    font-size: 14.5px;
+    color: #26150B;
+    margin: 15px 0;
+}
+
+
+.sociais a{
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid #A68D77;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #A68D77;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: 0.3s ease;
+}
+
+.sociais a:hover{
+    color: #26150B;
+    background-color: #A68D77;
+    border-color: #A68D77;
+}
+
+.sociais a:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.sociais a:active{
+    transform: translateY(2px);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <style>
+        body {
+            background-color: rgb(172, 177, 174);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da janela para aproveitar a melhor experiência.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="imagem-flexivel">
+    </picture>
+
+    <h2>Desafio da Navegação</h2>
+    <p>Esta é a página principal, o índice do seu site. É a página cinza. A partir dela você pode acessar as outras áreas principais através dos links a seguir</p>
+    <ul>
+        <li><a href="verde.html">Acesse a área verde</a></li>
+        <li><a href="amarelo.html">Acesse a área amarela</a></li>
+    </ul>
+</body>
+</html>
