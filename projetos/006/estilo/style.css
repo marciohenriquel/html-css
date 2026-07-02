@@ -221,11 +221,10 @@ aside h3{
 }
 
 aside  ul{
-    list-style-type: '\1F5F8\00A0\00A0';
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    gap: 10px 100px;
+    gap: 5px 50px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -334,12 +333,18 @@ footer{
     }
 
     .cor4 ul{
-        padding: 30px;
+        padding: 25px;
         display: grid;
-        gap: 10px 50px;
+        gap: 4px 30px;
+        text-align: left;
+        font-size: 0.8em;
     }
 
     .logo img{
     width:100px;
 }
+
+    .quebra{
+        display: none;
+    }
 }
