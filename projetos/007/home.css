@@ -1,0 +1,47 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 99px);
+}
+
+#cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+span {
+    color: #F26716;
+}
+
+.description {
+    font-size: 1.1rem;
+}
+
+#cta_buttons{
+    display: flex;
+    gap: 45px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#phone-button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffff;
+    padding: 8px 14px;
+}
+
+.fa-solid fa-phone {
+   
+}
