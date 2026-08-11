@@ -25,14 +25,22 @@ header{
     gap: 48px;
 }
 
+.nav-list :hover{
+    transform: translateY(-3px);
+}
+
+.nav-list:active{
+    transform: translateY(2px);
+}
+
 .nav-item a{
     text-decoration: none;
-    color: #04261E;
+    color: #261c04;
     font-weight: 600;
 }
 
 .nav-item.active a{
-    color: #04261E;
+    color: #261c04;
     border-bottom: 3px solid #f0af59;
 }
 
