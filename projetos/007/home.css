@@ -57,3 +57,27 @@ span {
     height: 75%;
     width: fit-content;
 }
+
+@media screen and (max-width: 1170px) {
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #phone-button button {
+        display: none;
+    }
+}
