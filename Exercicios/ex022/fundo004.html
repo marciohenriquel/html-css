@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body{
+            border: 1px dashed black;
+        }
+
+        .pose{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 98vh;
+
+            background-image: 
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png'),
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png'),
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png'),
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+
+            background-repeat: no-repeat;
+
+            background-position: 
+            center top,
+            left center,
+            bottom center,
+            right center;
+
+            background-size: 100px;
+        }
+
+        .pose h1{
+            display: flex;
+            justify-content: center;
+            border-radius: 15px;
+            box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.1);
+            padding-top: 15px;
+            background-color: wheat;
+            width: 500px;
+            height: 350px;
+
+            /*uma imagem para cada canto*/
+            background-image: 
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png'),
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png'),
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png'),
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png'),
+            url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+            
+            /*permite que as imagens não se repitam*/
+            background-repeat: no-repeat;
+
+            /*define a posição das imagens*/
+            background-position: 
+            left top,       /*canto superior esquerdo*/
+            right top,      /*canto superior direito*/
+            center center,  /*centraliza no meio*/
+            left bottom,    /*canto inferior esquerdo*/
+            right bottom;   /*canto inferior direito*/
+
+            /*define o tamanho da imagem*/
+            background-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pose">
+        <h1>Posicionamento</h1>
+    </div>
+</body>
+</html>
